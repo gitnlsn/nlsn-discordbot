@@ -1,4 +1,4 @@
-import { OpenAIApi } from "openai"
+import { ChatCompletionResponseMessageRoleEnum, OpenAIApi } from "openai"
 import { OpenAIFactory } from "../Factory/OpenAiFactory"
 import { SummarizeConversation } from "./SummarizeConversation"
 import { mockedChatMessages } from "./testUtils/discordMessages"
